@@ -122,3 +122,57 @@ Cela pourra être, par exemple, de la forme : **"Le département" + nom du dépa
 2. Utilisez la fonction PHP `sort()` pour trier le tableau par ordre alphabétique.
 
 3. Affichez chaque prénom ou ville dans le tableau trié avec une boucle `foreach`.
+
+
+# Exercices PHP - Tableaux Associatifs (Jeux Vidéo & Consoles)
+
+## Exercice 1 : Création du tableau
+Voici un tableau associatif $jeuxVideo contenant des jeux vidéo en clé et leur console respective en valeur.
+
+```php
+$jeuxVideo = [
+    "The Legend of Zelda: Breath of the Wild" => "Nintendo Switch",
+    "God of War" => "PlayStation 4",
+    "Halo Infinite" => "Xbox Series X",
+    "Super Mario Odyssey" => "Nintendo Switch",
+    "Spider-Man" => "PlayStation 4",
+    "Forza Horizon 5" => "Xbox Series X"
+];
+```
+
+## Exercice 2 : Afficher la console d'un jeu spécifique  
+À partir du tableau `$jeuxVideo`, affichez la console associée au jeu **"God of War"**.
+
+## Exercice 3 : Ajouter un nouveau jeu au tableau  
+Ajoutez au tableau `$jeuxVideo` le jeu **"Elden Ring"** et sa console **"PlayStation 5"**.  
+Affichez ensuite le tableau mis à jour.
+
+## Exercice 4 : Modifier la console d’un jeu  
+Modifiez la valeur associée au jeu **"Halo Infinite"** pour la remplacer par **"PC"**.  
+Affichez ensuite la nouvelle valeur pour vérifier la modification.
+
+## Exercice 5 : Afficher tous les jeux vidéo  
+À l'aide d'une boucle, affichez tous les jeux vidéo contenus dans le tableau `$jeuxVideo`.
+
+## Exercice 6 : Afficher tous les jeux et leurs consoles  
+Utilisez une boucle pour afficher chaque jeu avec sa console sous la forme :  
+**"Le jeu [Nom du jeu] est disponible sur [Nom de la console]"**.
+
+```plaintext
+Le jeu The Legend of Zelda: Breath of the Wild est disponible sur Nintendo Switch
+Le jeu God of War est disponible sur PlayStation 4
+...
+```
+
+## Exercice 7 : Vérifier si un jeu est présent dans le tableau  
+Créez une fonction qui prend un nom de jeu en paramètre et vérifie s'il est présent dans le tableau.  
+- Si le jeu existe, affichez un message confirmant sa présence.  
+- Sinon, affichez un message indiquant qu'il n'est pas dans la liste.  
+
+Testez la fonction avec différents jeux.
+
+## Exercice 8 : Trier le tableau par ordre alphabétique des jeux  
+Utilisez `ksort()` pour triez le tableau `$jeuxVideo` en fonction du **nom des jeux** et affichez le tableau trié.
+
+## Exercice 9 : Trier le tableau par ordre alphabétique des consoles  
+Utilisez `asort()` pour triez le tableau `$jeuxVideo` en fonction du **nom des consoles** et affichez le tableau trié.
