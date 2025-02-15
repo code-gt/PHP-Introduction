@@ -169,7 +169,7 @@ Créez une fonction qui prend un nom de jeu en paramètre et vérifie s'il est p
 - Si le jeu existe, affichez un message confirmant sa présence.  
 - Sinon, affichez un message indiquant qu'il n'est pas dans la liste.  
 
-Testez la fonction avec différents jeux.
+Testez la fonction avec différents jeux. Vous aurez besoin ici de la méthode `array_key_exists()`.
 
 ## Exercice 8 : Trier le tableau par ordre alphabétique des jeux  
 Utilisez `ksort()` pour triez le tableau `$jeuxVideo` en fonction du **nom des jeux** et affichez le tableau trié.
