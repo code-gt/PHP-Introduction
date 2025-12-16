@@ -108,3 +108,9 @@ Tous les paramètres doivent avoir une valeur par défaut.
 2. La fonction doit calculer les nouveaux points de vie du personnage en soustrayant les dégâts des points de vie.
 3. Si les nouveaux points de vie sont supérieurs à 0, affichez "Le personnage a des points de vie restants."
 4. Sinon, affichez "Le personnage est mort."
+
+## Exercice 11 : Code promo
+Créez une fonction qui applique une réduction sur un prix en fonction d'un code promo.  
+Elle prend deux parametres - le prix et le code promo.  
+Il existe trois codes promo différents (10%, 20%, 30%).  
+Faire un switch/case  et retournez et affichez le prix après réduction.
