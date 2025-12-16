@@ -85,3 +85,13 @@ En allant de 200 à 0 avec un pas de 12, afficher le message **Enfin !!!!**.
 ### Consignes :
 1. Utilisez une boucle for pour afficher la table de multiplication de 5, de 1 à 10.
 2. Affichez chaque résultat sous la forme : "5 x 1 = 5", "5 x 2 = 10", etc.
+
+## Exercice 11 : Compte à rebours personnalisé
+
+Créez une variable `$depart` initialisée à 10.
+Utilisez une boucle while.
+Décrémentez-la jusqu’à atteindre 0.
+À la fin, affichez le message **"Décollage !"**.
+
+## Exercice 12 : Carré des nombres
+Écrivez un script PHP qui affiche le carré des nombres de 1 à 10.
