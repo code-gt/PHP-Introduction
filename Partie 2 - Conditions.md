@@ -90,17 +90,8 @@ Afficher **C'est facile!!** si c'est vrai. Dans le cas contraire afficher **C'es
 **Bonus :** L'écrire de deux manières différentes.
 
 ## Exercice 3 : if/elseif/else
-Créer deux variables **age** et **gender**. La variable **gender** peut prendre comme valeur :
-- Homme
-- Femme  
-
-En fonction de l'âge et du genre afficher la phrase correspondante :
-- **Vous êtes un homme et vous êtes majeur**
-- **Vous êtes un homme et vous êtes mineur**
-- **Vous êtes une femme et vous êtes majeur**
-- **Vous êtes une femme et vous êtes mineur**  
-
-Gérer tous les cas.
+Créer une variable **temperature**  
+Afficher **Trop froid** si < 0, **Frais** si ≥ 0 et ≤ 15, - **Tempéré** si > 15 et ≤ 25, - *Chaud** si > 25.
 
 ## Exercice 4 : switch/case
 L'échelle de Richter est un outil de mesure qui permet de définir la magnitude de moment d'un tremblement de terre.  
@@ -147,12 +138,12 @@ Traduire ce code avec des if et des else :
     ?>
     
 ## Exercice 8
-Traduire ce code avec des if et des else :  
+Selon l’âge de l’utilisateur, afficher un message différent dynamiquement. La variable `$message` sera déclaré vide au départ de l'exercice. 
 
-
-    <?php
-      echo ($isOk) ? 'c'est ok !!' : 'c'est pas bon !!!';
-    ?>
+Moins de 12 ans → tarif enfant,  
+12 à 17 ans → tarif réduit,  
+18 à 64 ans → tarif normal,  
+≥ 65 ans → tarif senior.  
 
 ## Exercice 9 : Vérification de mots de passe
 
