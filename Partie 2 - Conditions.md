@@ -91,7 +91,7 @@ Afficher **C'est facile!!** si c'est vrai. Dans le cas contraire afficher **C'es
 
 ## Exercice 3 : if/elseif/else
 Créer une variable **temperature**  
-Afficher **Trop froid** si < 0, **Frais** si ≥ 0 et ≤ 15, - **Tempéré** si > 15 et ≤ 25, - *Chaud** si > 25.
+Afficher **Trop froid** si < 0, **Frais** si ≥ 0 et ≤ 15, - **Tempéré** si > 15 et ≤ 25, - **Chaud** si > 25.
 
 ## Exercice 4 : switch/case
 L'échelle de Richter est un outil de mesure qui permet de définir la magnitude de moment d'un tremblement de terre.  
@@ -177,4 +177,17 @@ Moins de 12 ans → tarif enfant,
 2. Utilisez une structure `switch` pour tester différentes valeurs de `$pokemon`.
 3. Pour chaque Pokémon, affichez son type avec un message comme : "Pikachu est un Pokémon de type Électrique."
 4. Si le Pokémon n'est pas dans la liste, affichez un message indiquant "Pokémon inconnu."
-    
+
+## Exercice 12 : Météo
+
+Afficher un message différent selon la météo.
+Déclarez une variable `$meteo` avec les valeurs possibles : "soleil", "pluie", "neige", "vent"
+Utilisez un **switch/case**
+
+Affichez des messages personnalisés :
+
+ - soleil → "Sortez les lunettes 😎"
+ - pluie → "Prenez un parapluie ☔"
+ - neige → "Attention ça glisse ❄️"
+ - vent → "Couvrez-vous bien"
+ - défaut → "Météo inconnue".
