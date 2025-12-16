@@ -181,7 +181,7 @@ Moins de 12 ans → tarif enfant,
 ## Exercice 12 : Météo
 
 Afficher un message différent selon la météo.
-Déclarez une variable `$meteo` avec les valeurs possibles : "soleil", "pluie", "neige", "vent"
+Déclarez une variable `$meteo` avec les valeurs possibles : "soleil", "pluie", "neige", "vent".  
 Utilisez un **switch/case**
 
 Affichez des messages personnalisés :
