@@ -44,7 +44,7 @@ Une variable est un conteneur pour stocker une valeur. Cette valeur peut être d
 - **Entiers** (`int`) : Ce sont des nombres sans décimales. Par exemple, `$age = 20;`.
 - **Flottants** (`float`) : Ce sont des nombres avec des décimales. Par exemple, `$prix = 9.99;`.
 - **Chaînes de caractères** (`string`) : Ce sont des séquences de caractères. Par exemple, `$nom = "John";`.
-- **Booléens** (`bool`) : Ce sont des valeurs de vérité. Ils ne peuvent être que `true` (vrai) ou `false` (faux). Par exemple, `$estMajeur = true;`.
+- **Booléens** (`bool`) : Ce sont des valeurs de vérité. Ils ne peuvent être que `true` ou `false`. Par exemple, `$estMajeur = true;`.
 - **Tableaux** (`array`) : Ce sont des collections de valeurs. Par exemple, `$couleurs = array("rouge", "vert", "bleu");`.
 - **Objets** (`object`) : Ce sont des instances de classes. Par exemple, `$voiture = new Voiture();`.
 - **NULL** : C'est une valeur spéciale qui représente une variable sans valeur. Par exemple, `$inconnu = NULL;`.
