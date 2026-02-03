@@ -1,12 +1,10 @@
-# PHP-Partie-2-Conditions
-Les Conditions
-
+# les conditions en PHP
 
 Une condition en PHP, c'est comme un carrefour. Selon la direction que tu prends, tu arrives à une destination différente.
 
-La structure de contrôle la plus courante pour les conditions en PHP est if...else.
+La structure de contrôle la plus courante pour les conditions en PHP est if / else.
 
-Voici comment on utilise if...else :
+Voici comment on utilise if / else :
 
 ```php
 if ($condition) {
@@ -17,18 +15,6 @@ if ($condition) {
 ```
 
 Et voici une variante avec elseif :
-
-```php
-if ($condition1) {
-    // Code à exécuter si la condition1 est vraie
-} elseif ($condition2) {
-    // Code à exécuter si la condition1 est fausse et la condition2 est vraie
-} else {
-    // Code à exécuter si aucune des conditions n'est vraie
-}
-```
-
-Par exemple, tu peux afficher un message différent selon l'âge de l'utilisateur :
 
 ```php
 $age = 20;
@@ -112,7 +98,7 @@ Gérer tous les cas.
 Traduire ce code avec des if et des else :  
 
 ```php
-      echo ($gender != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!';
+echo ($gender != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!';
 ```
 
 ## Exercice 5
