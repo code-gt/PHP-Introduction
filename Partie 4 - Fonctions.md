@@ -1,9 +1,6 @@
-# PHP-Partie-4-Fonctions
-
-## Fonctions
+# les fonctions en PHP
 
 Une fonction en PHP, c'est comme une machine qui fait une tâche spécifique. Tu lui donnes des ingrédients (les paramètres), elle fait son travail et te donne le résultat.
-
 
 Voici comment on déclare une fonction en PHP :
 
@@ -52,15 +49,11 @@ Faire une fonction qui prend trois paramètres : **le nom, le prénom et l'âge 
 "Bonjour" + **nom** + **prénom** + ",tu as" + **age** + "ans".
 
 ## Exercice 5 : Vérification du genre et du rôle d'un personnage
-Écrivez une fonction PHP qui prend deux paramètres : le genre et le rôle d'un personnage. Le genre peut être :
-- Masculin
-- Féminin
+Écrivez une fonction PHP qui prend deux paramètres : le genre et le rôle d'un personnage. 
 
-Les rôles peuvent être :
-- Guerrier
-- Mage
-- Voleur
-- Archer
+Le genre peut être *masculin* ou *féminin*
+
+Les rôles peuvent être *guerrier*, *mage*, *voleur*, *archer*  
 
 La fonction doit vérifier les deux paramètres (genre et rôle) et afficher un message spécifique en fonction de ces paramètres.
 Si les paramètres ne correspondent pas à un genre ou rôle valide, afficher : "Genre ou rôle invalide."
