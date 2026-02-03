@@ -55,43 +55,21 @@ Tant que la première variable n'est pas inférieure ou égale à 10 :
 - décrémenter la première variable
 
 ## Exercice 4
-Créer une variable et l'initialiser à 1.  
-Tant que cette variable n'atteint pas 10, il faut :
-- l'afficher
-- l'incrementer de la moitié de sa valeur
+En allant de 200 à 0 avec un pas de 12, afficher le message **Hop**.
 
-## Exercice 5
-En allant de 1 à 15 avec un pas de 1, afficher le message **On y arrive presque**.
+## Exercice 5 : Somme des entiers
+Écrivez un script PHP qui calcule et affiche la somme de tous les entiers de 1 à 100 en utilisant une boucle `for`.
 
-## Exercice 6
-En allant de 20 à 0 avec un pas de 1, afficher le message **C'est presque bon**.
-
-## Exercice 7
-En allant de 1 à 100 avec un pas de 15, afficher le message **On tient le bon bout**.
-
-## Exercice 8
-En allant de 200 à 0 avec un pas de 12, afficher le message **Enfin !!!!**.
-
-## Exercice 9 : Somme des entiers
-Écrivez un script PHP qui calcule la somme de tous les entiers de 1 à 100 en utilisant une boucle `for`.
-
-### Consignes :
-1. Utilisez une boucle `for` pour itérer de 1 à 100.
-2. Calculez la somme de ces entiers et affichez le résultat.
-
-## Exercice 10 : Table de multiplication
+## Exercice 6 : Table de multiplication
 Écrivez un script PHP qui affiche la table de multiplication de 5.
+Affichez chaque résultat sous la forme : "5 x 1 = 5", "5 x 2 = 10", etc.
 
-### Consignes :
-1. Utilisez une boucle for pour afficher la table de multiplication de 5, de 1 à 10.
-2. Affichez chaque résultat sous la forme : "5 x 1 = 5", "5 x 2 = 10", etc.
-
-## Exercice 11 : Compte à rebours personnalisé
+## Exercice 7 : Compte à rebours personnalisé
 
 Créez une variable `$depart` initialisée à 10.  
 Utilisez une boucle while.  
 Décrémentez-la jusqu’à atteindre 0.  
 À la fin, affichez le message **"Décollage !"**.  
 
-## Exercice 12 : Carré des nombres
+## Exercice 8 : Carré des nombres
 Écrivez un script PHP qui affiche le carré des nombres de 1 à 10.
