@@ -7,7 +7,9 @@ C'est un peu comme une boîte où tu peux ranger plusieurs paires de chaussures.
 
 Il existe deux types de tableaux en PHP : les tableaux indexés et les tableaux associatifs.
 
-1. **Tableaux indexés** : Les valeurs sont stockées dans un ordre précis et chaque valeur a un index correspondant. **L'index commence toujours à 0**. Par exemple :
+1. **Tableaux indexés** :  
+Les valeurs sont stockées dans un ordre précis et chaque valeur a un index correspondant.  
+**L'index commence toujours à 0**. Par exemple :
 
 ```php
 $couleurs = ["rouge", "vert", "bleu"];
@@ -16,7 +18,11 @@ echo $couleurs[1]; // Affiche "vert"
 echo $couleurs[2]; // Affiche "bleu"
 ```
 
-2. **Tableaux associatifs** : Chaque valeur est associée à une clé. La clé peut être un nombre ou une chaîne de caractères. On parle ici d'un format clé => valeur
+2. **Tableaux associatifs** :  
+Chaque valeur est associée à une clé.
+La clé peut être un nombre ou une chaîne de caractères.  
+On parle ici d'un format `clé => valeur`
+
 Par exemple :
 
 ```php
