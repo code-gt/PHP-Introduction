@@ -84,16 +84,11 @@ Si aucune correspondance n'est trouvée, le `default` est exécuté.
 Créer une variable **age** et l'initialiser avec une valeur.  
 Si l'âge est supérieur ou égale à 18, afficher **Vous êtes majeur**. Dans le cas contraire, afficher **Vous êtes mineur**.
 
-## Exercice 2 : boolean
-Créer une variable **isEasy** de type booléan et l'initialiser avec une valeur.  
-Afficher **C'est facile!!** si c'est vrai. Dans le cas contraire afficher **C'est difficile !!!**.  
-**Bonus :** L'écrire de deux manières différentes.
-
-## Exercice 3 : if/elseif/else
+## Exercice 2 : if/elseif/else
 Créer une variable **temperature**  
 Afficher **Trop froid** si < 0, **Frais** si ≥ 0 et ≤ 15, - **Tempéré** si > 15 et ≤ 25, - **Chaud** si > 25.
 
-## Exercice 4 : switch/case
+## Exercice 3 : switch/case
 L'échelle de Richter est un outil de mesure qui permet de définir la magnitude de moment d'un tremblement de terre.  
 Cette échelle va de 1 à 9.  
 Créer une variable **magnitude**. Selon la valeur de **magnitude**, afficher la phrase correspondante.  
@@ -113,31 +108,14 @@ Magnitude   |   Phrase
 Gérer tous les cas.  
 **Utiliser une structure switch/case**
 
-## Exercice 5
+## Exercice 4
 Traduire ce code avec des if et des else :  
 
-
-    <?php
+```php
       echo ($gender != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!';
-    ?>
+```
 
-## Exercice 6
-Traduire ce code avec des if et des else :  
-
-
-    <?php
-      echo ($age >= 18) ? 'Tu es majeur' : 'Tu n\'es pas majeur';
-    ?>
-    
-## Exercice 7
-Traduire ce code avec des if et des else :  
-
-
-    <?php
-      echo ($isOk == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';
-    ?>
-    
-## Exercice 8
+## Exercice 5
 Selon l’âge de l’utilisateur, afficher un message différent dynamiquement. La variable `$message` sera déclaré vide au départ de l'exercice. 
 
 Moins de 12 ans → tarif enfant,  
@@ -145,7 +123,7 @@ Moins de 12 ans → tarif enfant,
 18 à 64 ans → tarif normal,  
 ≥ 65 ans → tarif senior.  
 
-## Exercice 9 : Vérification de mots de passe
+## Exercice 6 : Vérification de mots de passe
 
 Écrivez un script PHP qui vérifie si deux mots de passe saisis sont identiques.
 
@@ -155,7 +133,7 @@ Moins de 12 ans → tarif enfant,
 3. Si les mots de passe sont identiques, affichez : "Les mots de passe correspondent.".
 4. Sinon, affichez : "Les mots de passe ne correspondent pas.".
 
-## Exercice 10 : Calculateur de notes
+## Exercice 7 : Calculateur de notes
 
 Écrivez un script PHP qui attribue une mention en fonction d'une note sur 20.
 
@@ -168,7 +146,7 @@ Moins de 12 ans → tarif enfant,
     - **"Insuffisant"** : si la note est inférieure à 10.
 3. Affichez la mention correspondante.
 
-## Exercice 11 : Déterminer le type de Pokémon
+## Exercice 8 : Déterminer le type de Pokémon
 
 Écrivez un script PHP qui, en fonction du nom d'un Pokémon, affiche son type. Par exemple, si le nom du Pokémon est "Bulbizarre", le script doit afficher "Plante / Poison". Utilisez une structure **switch/case**.
 
@@ -177,17 +155,3 @@ Moins de 12 ans → tarif enfant,
 2. Utilisez une structure `switch` pour tester différentes valeurs de `$pokemon`.
 3. Pour chaque Pokémon, affichez son type avec un message comme : "Pikachu est un Pokémon de type Électrique."
 4. Si le Pokémon n'est pas dans la liste, affichez un message indiquant "Pokémon inconnu."
-
-## Exercice 12 : Météo
-
-Afficher un message différent selon la météo.
-Déclarez une variable `$meteo` avec les valeurs possibles : "soleil", "pluie", "neige", "vent".  
-Utilisez un **switch/case**
-
-Affichez des messages personnalisés :
-
- - soleil → "Sortez les lunettes 😎"
- - pluie → "Prenez un parapluie ☔"
- - neige → "Attention ça glisse ❄️"
- - vent → "Couvrez-vous bien"
- - défaut → "Météo inconnue".
