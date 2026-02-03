@@ -68,7 +68,11 @@ Afficher le tableau à jour avec une boucle `foreach`.
 
 ## Exercice 4
 Créer un tableau associatif avec comme index le numéro des département suivants et en valeur leur nom.  
-26 Drôme, 38 Isère, 42 Loire, 69 Rhône, 74 Haute-Savoie
+- 26 => Drôme
+- 38 => Isère
+- 42 => Loire
+- 69 => Rhône
+- 74 => Haute-Savoie
 
 ## Exercice 5
 Dans le tableau de l'exercice 5, afficher la valeur de l'index 42.
