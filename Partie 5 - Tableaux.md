@@ -67,7 +67,7 @@ Avec le tableau de l'exercice 1, modifier le mois de **aout** pour lui ajouter l
 Afficher le tableau à jour avec une boucle `foreach`.
 
 ## Exercice 4
-Créer un tableau associatif avec comme index le numéro des département suivants et en valeur leur nom.  
+Créer un **tableau associatif** avec comme index le numéro des départements suivants et en valeur leur nom.  
 - 26 => Drôme
 - 38 => Isère
 - 42 => Loire
