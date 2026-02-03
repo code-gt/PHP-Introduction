@@ -1,5 +1,4 @@
-# PHP-Partie-1-Variables
-Variables et types de données
+# les variables en PHP
 
 Une variable en PHP, c'est comme une boîte dans laquelle tu peux stocker une valeur. Tu peux donner un nom à cette boîte pour pouvoir la retrouver plus tard.
 
@@ -43,17 +42,11 @@ echo $somme; // Affiche 30
 Une variable est un conteneur pour stocker une valeur. Cette valeur peut être de différents types :
 
 - **Entiers** (`int`) : Ce sont des nombres sans décimales. Par exemple, `$age = 20;`.
-
 - **Flottants** (`float`) : Ce sont des nombres avec des décimales. Par exemple, `$prix = 9.99;`.
-
 - **Chaînes de caractères** (`string`) : Ce sont des séquences de caractères. Par exemple, `$nom = "John";`.
-
 - **Booléens** (`bool`) : Ce sont des valeurs de vérité. Ils ne peuvent être que `true` (vrai) ou `false` (faux). Par exemple, `$estMajeur = true;`.
-
 - **Tableaux** (`array`) : Ce sont des collections de valeurs. Par exemple, `$couleurs = array("rouge", "vert", "bleu");`.
-
 - **Objets** (`object`) : Ce sont des instances de classes. Par exemple, `$voiture = new Voiture();`.
-
 - **NULL** : C'est une valeur spéciale qui représente une variable sans valeur. Par exemple, `$inconnu = NULL;`.
 
 On déclare une variable avec le symbole `$` suivi du nom de la variable. On peut ensuite utiliser cette variable dans notre code en la rappelant par son nom.
@@ -101,7 +94,7 @@ Déclarez deux variables :
    $texte = "Bonjour";  
    echo strlen($texte); // Affiche 7
    ```
-4. Affichez `$nomComplet` en majuscules à l'aide de la fonction `strtoupper()`.  
+3. Affichez `$nomComplet` en majuscules à l'aide de la fonction `strtoupper()`.  
 
    Exemple :  
    ```php 
