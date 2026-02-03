@@ -1,5 +1,4 @@
-# PHP-Partie-5-Tableaux
-Les Tableaux
+# les tableaux en PHP
 
 ## Petit tips 
 En PHP, un tableau est une structure de données qui permet de stocker plusieurs valeurs dans une seule variable. 
