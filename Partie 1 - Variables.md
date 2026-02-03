@@ -73,29 +73,21 @@ Changer sa valeur par 3. Afficher son contenu.
 Changer sa valeur par 125. Afficher son contenu.
 
 ## Exercice 4
-Créer une variable de type string, une variable de type int, une variable de type float, une variable de type booléan et les initialiser avec une valeur de votre choix.  
-Les afficher.
-
-## Exercice 5
-Créer une variable de type int. L'initialiser avec **rien**. Afficher sa valeur.  
-Donner une valeur à cette variable et l'afficher.
-
-## Exercice 6
 Créer une variable **name** et l'initialiser avec la valeur de votre choix.  
 Afficher : "Bonjour" + **name** + ", comment vas tu ?".
 
-## Exercice 7
+## Exercice 5
 Créer trois variables **lastname** , **firstname** et **age** et les initialiser avec les valeurs de votre choix.  **Attention** age est de type entier.  
 Afficher : "Bonjour" + **lastname** + **firstname** + ",tu as" + **age** + "ans".
 
-## Exercice 8
+## Exercice 6
 Créer 3 variables.  
 Dans la première mettre le résultat de l'opération **3 + 4**.  
 Dans la deuxième mettre le résultat de l'opération **5 * 20**.  
 Dans la troisième mettre le résultat de l'opération **45 / 5**.  
 Afficher le contenu des variables.
 
-## Exercice 9 : Manipulation de chaînes de caractères
+## Exercice 7 : Manipulation de chaînes de caractères
 
 Déclarez deux variables :  
 - `$prenom` contenant votre prénom  
@@ -117,7 +109,7 @@ Déclarez deux variables :
    echo strtoupper($texte); // Affiche HELLO
    ```
    
-## Exercice 10 : Les opérateurs mathématiques
+## Exercice 8 : Les opérateurs mathématiques
    
 1. Déclarez deux variables `$nombre1` et `$nombre2` contenant des nombres entiers.  
 2. Calculez et affichez :  
@@ -129,7 +121,7 @@ Déclarez deux variables :
 
 Assurez-vous de vérifier que `$nombre2` n'est pas égal à 0 avant de tenter une division ou un modulo.
 
-## Exercice 11 : Les constantes et les variables
+## Exercice 9 : Les constantes et les variables
 
 1. Déclarez une constante nommée `PI` avec la valeur `3.14159`.
   
@@ -152,7 +144,7 @@ Assurez-vous de vérifier que `$nombre2` n'est pas égal à 0 avant de tenter un
    L'aire du cercle est de 78.53975.
    ```
 
-## Exercice 12 : Calcul du prix TTC 
+## Exercice 10 : Calcul du prix TTC 
 
 1. Déclarez une constante `TVA` avec la valeur `0.2` (pour représenter 20 % de TVA).  
 
