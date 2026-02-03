@@ -40,6 +40,8 @@ A ton tour d'utiliser des tableaux 😎!
 
 ### A vous de jouer ! 
 
+# Exercices de base
+
 ## Exercice 1
 Créer un tableau **months** et l'initialiser avec les valeurs suivantes :
 - **janvier**
@@ -55,46 +57,30 @@ Créer un tableau **months** et l'initialiser avec les valeurs suivantes :
 - **novembre**
 - **décembre**
 
-## Exercice 2
-Avec le tableau de l'exercice 1, afficher la valeur de la troisième ligne de ce tableau.
+Afficher toutes les valeurs de ce tableau avec une boucle `foreach`.
 
-## Exercice 3
+## Exercice 2
 Avec le tableau de l'exercice , afficher la valeur de l'index 5.
 
+## Exercice 3
+Avec le tableau de l'exercice 1, modifier le mois de **aout** pour lui ajouter l'accent `^` manquant.  
+Afficher le tableau à jour avec une boucle `foreach`.
+
 ## Exercice 4
-Avec le tableau de l'exercice 1, modifier le mois de **aout** pour lui ajouter l'accent manquant.
+Créer un tableau associatif avec comme index le numéro des département suivants et en valeur leur nom.  
+26 Drôme, 38 Isère, 42 Loire, 69 Rhône, 74 Haute-Savoie
 
 ## Exercice 5
-Créer un tableau associatif avec comme index le numéro des départements des Hauts de France et en valeur leur nom.
+Dans le tableau de l'exercice 5, afficher la valeur de l'index 42.
 
 ## Exercice 6
-Avec le tableau de l'exercice 5, afficher la valeur de l'index 59.
+Dans le tableau de l'exercice 5, ajouter le département 43 Haute-Loire.
 
 ## Exercice 7
-Avec le tableau de l'exercice 5, ajouter la ligne correspondant au département de la ville de Reims.
-
-## Exercice 8
-Avec le tableau de l'exercice 1 et une boucle, afficher toutes les valeurs de ce tableau.
-
-## Exercice 9
-Avec le tableau de l'exercice 5, afficher toutes les valeurs de ce tableau.
-
-## Exercice 10
 Avec le tableau de l'exercice 5, afficher toutes les valeurs de ce tableau ainsi que les clés associés.  
 Cela pourra être, par exemple, de la forme : **"Le département" + nom du département + "a le numéro" + numéro du département**
 
-## Exercice 11 : Tableau des marques de voitures
-Écrivez un script PHP qui utilise un tableau simple pour stocker quelques marques de voitures, puis affichez-les.
-
-### Consignes :
-
-1. Déclarez un tableau simple `$marquesVoitures` et y inclure six ou sept marques de voiture au choix.
-
-2. Utilisez une boucle `foreach` pour afficher chaque marque de voiture dans une nouvelle ligne.
-
-3. Affichez également le nombre total de marques de voitures présentes dans le tableau.
-
-## Exercice 12 : Tableau des matériaux de Minecraft
+## Exercice 8 : Tableau des matériaux de Minecraft
 
 Écrivez un script PHP qui utilise un tableau pour stocker quelques matériaux de Minecraft et leurs caractéristiques. Ensuite, vous devez afficher ces informations à l'aide d'une boucle.
 
@@ -102,9 +88,9 @@ Cela pourra être, par exemple, de la forme : **"Le département" + nom du dépa
 
 1. Déclarez un tableau associatif `$materiauxMinecraft` avec les éléments suivants :
    - "Bois" : "Obtient par coupe d'arbres"
-   - "Pierre" : "Obtient par minage avec une pioche en pierre ou plus"
-   - "Fer" : "Obtient par minage avec une pioche en fer ou plus"
-   - "Diamant" : "Obtient par minage avec une pioche en diamant"
+   - "Pierre" : "Obtient par minage avec une pioche en bois ou plus"
+   - "Fer" : "Obtient par minage avec une pioche en pierre ou plus"
+   - "Diamant" : "Obtient par minage avec une pioche en fer ou plus"
    - "Sable" : "Obtient en minant du sable"
 
 2. Utilisez une boucle `foreach` pour afficher pour chaque matériau de Minecraft :
@@ -112,19 +98,12 @@ Cela pourra être, par exemple, de la forme : **"Le département" + nom du dépa
    - La méthode pour l'obtenir
    - Exemple de sortie : "Le matériau Bois est obtenu par coupe d'arbres."
 
-## Exercice 13 : Trier un tableau de prénoms
-Écrivez un script PHP qui trie un tableau contenant des prénoms par ordre alphabétique et les affiche.
+## Exercice 9 : Trier un tableau de prénoms
+Écrivez un script PHP qui trie un tableau contenant des prénoms par ordre alphabétique et les affiche avec une boucle `foreach`.
 
-## Consignes :
+---
 
-1. Déclarez un tableau `$prenoms` contenantune dizaine de prénoms.
-
-2. Utilisez la fonction PHP `sort()` pour trier le tableau par ordre alphabétique.
-
-3. Affichez chaque prénom ou ville dans le tableau trié avec une boucle `foreach`.
-
-
-# Exercices PHP - Tableaux Associatifs (Jeux Vidéo & Consoles)
+# Tableaux Associatifs (Jeux Vidéo & Consoles)
 
 ## Exercice 1 : Création du tableau
 Voici un tableau associatif $jeuxVideo contenant des jeux vidéo en clé et leur console respective en valeur.
@@ -151,28 +130,23 @@ Affichez ensuite le tableau mis à jour.
 Modifiez la valeur associée au jeu **"Halo Infinite"** pour la remplacer par **"PC"**.  
 Affichez ensuite la nouvelle valeur pour vérifier la modification.
 
-## Exercice 5 : Afficher tous les jeux vidéo  
-À l'aide d'une boucle, affichez tous les jeux vidéo contenus dans le tableau `$jeuxVideo`.
-
-## Exercice 6 : Afficher tous les jeux et leurs consoles  
+## Exercice 5 : Afficher tous les jeux et leurs consoles  
 Utilisez une boucle pour afficher chaque jeu avec sa console sous la forme :  
 **"Le jeu [Nom du jeu] est disponible sur [Nom de la console]"**.
 
 ```plaintext
 Le jeu The Legend of Zelda: Breath of the Wild est disponible sur Nintendo Switch
-Le jeu God of War est disponible sur PlayStation 4
-...
 ```
 
-## Exercice 7 : Vérifier si un jeu est présent dans le tableau  
+## Exercice 6 : Vérifier si un jeu est présent dans le tableau  
 Créez une fonction qui prend un nom de jeu en paramètre et vérifie s'il est présent dans le tableau.  
 - Si le jeu existe, affichez un message confirmant sa présence.  
 - Sinon, affichez un message indiquant qu'il n'est pas dans la liste.  
 
-Testez la fonction avec différents jeux. Vous aurez besoin ici de la méthode `array_key_exists()`.
+Testez la fonction avec différents jeux. Vous aurez besoin ici de la méthode **`array_key_exists()`**.
 
-## Exercice 8 : Trier le tableau par ordre alphabétique des jeux  
+## Exercice 7 : Trier le tableau par ordre alphabétique des jeux  
 Utilisez `ksort()` pour triez le tableau `$jeuxVideo` en fonction du **nom des jeux** et affichez le tableau trié.
 
-## Exercice 9 : Trier le tableau par ordre alphabétique des consoles  
+## Exercice 8 : Trier le tableau par ordre alphabétique des consoles  
 Utilisez `asort()` pour triez le tableau `$jeuxVideo` en fonction du **nom des consoles** et affichez le tableau trié.
